@@ -1,6 +1,6 @@
 Wazimap-UG
 ==========
-The Uganda instance of [Wazimap](https://github.com/CodeForAfrica/Wazimap.Uganda), a Django application for exploring census and other similar data.
+The Uganda instance of [Wazimap](https://github.com/Code4SA/wazimap), a Django application for exploring census and other similar data.
 
 Local development
 -----------------
@@ -18,7 +18,6 @@ You will need a Postgres database:
 ```
 psql
 create database wazimap_ug;
-grant all privileges on database wazimap_ug to wazimap_ug;
 ```
 
 Import the data into the new database:
